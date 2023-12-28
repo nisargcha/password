@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+#container{
+    border: 10px solid black;
+    height: 30rem;
+    width: 50rem;
+    margin-top: 7rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.h1{
+    font-family: 'Rubik Doodle Shadow',sans-serif;
+    margin-top: 2.5rem;
+    margin-left: 11rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.input-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.input-box-text{
+    font-family: 'PT+Serif:ital@';
+    border-radius: 40%;
+    height: 2.5rem;
+    width: 300px;
+    padding: 10px;        
+    font-size: 16px;
+    border: none;
+    border-radius: 10px; 
+    outline: none;
+}
+#gif{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 5rem;
+}
+.submit-btn{
+    height: 3rem;
+    width: 8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 21.25rem;
+    margin-top: 2rem;
+    outline: none;
+    border-radius: 25%;
+    border-style: solid;
+    box-shadow: 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
